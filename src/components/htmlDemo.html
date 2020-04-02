@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+  <div>
+    <div>
+      <h2>Honors 2102 Template Tester</h2>
+      <h3>Don't worry. The actual program will look much better than this....</h3>
+    </div>
+    <div>
+      <h4>Your story description is:</h4>
+      <p id="storyText"></p>
+    </div>
+    <div>
+      <h4>Your Button Choices are: </h4>
+      <button id="btn1"></button>
+      <button id="btn2"></button>
+      <!-- Uncomment if you need a 3rd or 4th button -->
+      <!-- <button id="btn3"></button> -->
+      <!-- <button id="btn4"></button> -->
+    </div>
+  </div>
+
+
+
+
+
+  <script>
+    const map = new Map([
+      //Put path to test in here: 
+      //Remember to update the pathname to try fetching below
+
+      ["startPath", {
+        storyText: "This is a sample description for what happens next in the story",
+        buttons: [
+          {
+            btnTxt: "Use time machine",
+            path: 'timeWarp',
+          },
+          {
+            btnTxt: "Second Btn",
+            path: 'otherSamplePath',
+          }
+        ]
+      }],
+
+
+      //End of path to place
+    ])
+
+
+    console.log("helloowww")
+    //PUT PATH NAME TO TEST HERE:
+    pathData = map.get('startPath') //Put pathname here
+
+
+
+    document.getElementById("storyText").innerHTML = pathData.storyText
+    document.getElementById("btn1").innerHTML = pathData.buttons[0].btnTxt
+    document.getElementById("btn2").innerHTML = pathData.buttons[1].btnTxt
+    // Uncomment if you need a third or fourth button
+    // document.getElementById("btn3").innerHTML = pathData.buttons[2].btnTxt  
+    // document.getElementById("btn4").innerHTML = pathData.buttons[4].btnTxt
+
+  </script>
+</body>
+
+</html>

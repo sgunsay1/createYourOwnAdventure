@@ -536,7 +536,7 @@ export default new Map([
       },
       {
         btnTxt: "Wander around aimlessly and hope that you find civilization",
-        path: 'path431',
+        path: 'path433',
       },
       {
         btnTxt: "Say “no way Jose” and go back inside the time-machine",

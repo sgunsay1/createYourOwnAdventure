@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Container, Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles'
-import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
-import { ThemeProvider } from '@material-ui/styles'
 import Typography from '@material-ui/core/Typography'
 import Navbar from './components/navbar'
 import StoryDescription from './components/story'
@@ -14,8 +12,24 @@ class CreateYourOwnStory extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentPath: storyPaths.get('startPath')
+      currentPath: storyPaths.get('startPath'),
+      height: 0
     }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ height: window.innerHeight });
   }
 
   clickHandler(path) {
@@ -32,7 +46,7 @@ class CreateYourOwnStory extends React.Component {
         <Navbar>
           <Typography variant='h2'>Honor 2102 Create Your Own Adventure</Typography>
         </Navbar>
-        <Paper className={classes.Paper}>
+        <Paper elevation={5} className={classes.Paper}>
           <StoryDescription description={this.state.currentPath.storyText} />
           <BtnContainer className={classes.Btns} buttons={this.state.currentPath.buttons} clickHandler={(path) => this.clickHandler(path)} />
         </Paper>
@@ -52,7 +66,7 @@ export default withStyles(theme => ({
     margin: "auto",
   },
   Paper: {
-    padding: theme.spacing(5),
+    padding: theme.spacing(10),
   },
   Btns: {
     padding: theme.spacing(5),

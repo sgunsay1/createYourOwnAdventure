@@ -11,7 +11,7 @@ function StoryDescription({
 }) {
 
   return (
-    <Typography>{description}</Typography>
+    <Typography className={classes.spacing}>{description}</Typography>
   )
 }
 
@@ -20,4 +20,8 @@ export default withStyles(theme => ({
   root: {
     flexGrow: 1,
   },
+  spacing: {
+    // padding: theme.spacing(4)
+    marginBottom: theme.spacing(5)
+  }
 }))(StoryDescription)

@@ -1,15 +1,8 @@
 import React from 'react';
 
 import './App.css';
-import { Container, Paper } from '@material-ui/core';
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles'
-import { ThemeProvider } from '@material-ui/styles'
-import Typography from '@material-ui/core/Typography'
-import Navbar from './components/navbar'
-import StoryDescription from './components/story'
 import CreateYourOwnStory from './createStory'
-
-
 
 const colors = {
   blue: '#00a69c',
@@ -49,10 +42,7 @@ let theme = createMuiTheme({
 
 theme = responsiveFontSizes(theme)
 
-
 function App() {
-
-
   return (
     <CreateYourOwnStory />
   )

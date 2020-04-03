@@ -530,7 +530,7 @@ export default new Map([
       },
       {
         btnTxt: "Say “no way Jose” and go back inside the time-machine",
-        path: 'path431',
+        path: 'path434',
       },
     ]
   }],
@@ -995,19 +995,15 @@ export default new Map([
     storyText: "Having had your fill of adventure, you find your way back to the machine and are relieved to see that it is still there. Stepping inside and preparing yourself, you:",
     buttons: [
       {
-        btnTxt: "Push a large red button",
+        btnTxt: "Push the large red button",
         path: 'path435',
       },
       {
         btnTxt: "turn the knob to 1650",
-        path: 'path', //todo fix
+        path: 'path101',
       },
       {
         btnTxt: "turn the knob to 950",
-        path: 'path',
-      },
-      {
-        btnTxt: "turn the knob to 700",
         path: 'path',
       },
     ]

@@ -5,454 +5,509 @@ export default new Map([
     buttons: [
       { //This is the start of a button
         btnTxt: "Ignore it! Nothing good ever comes from time travel", //This is the text that will show up INSIDE of the button
-        path: 'ignore1', //This directs to a differnt object with it's own story. 
+        path: 'path001', //This directs to a differnt object with it's own story. 
       }, //This is the end of a button
       {
         btnTxt: "Go look at it; it's shiny...",
-        path: 'golook1', //IMPORTANT: whatever you type here MUST match a later path. 
+        path: 'path002', //IMPORTANT: whatever you type here MUST match a later path. 
       }
     ] //This is the end of the path and its buttons
   }],
   //This is the end of the startPath
 
 
-  ["ignore1", {
+  ["path001", {
     storyText: "You have no sense of adventure; you live your entire life in mediocrity, always wondering what would have happened...  THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
 
-  ["golook1", {
-    storyText: "You discover a knob on the time machine that changes the number on the machine's LED display; you figure the number represents how far back the time machine will take you. You decide to:",
+  ["path002", {
+    storyText: "You discover a knob on the time machine that changes the number on the machine's LED display; you figure the number represents how far back the time machine will take you (in years). You decide to:",
     buttons: [
       {
         btnTxt: "walk away; the whole thing looks a little sketchy...",
-        path: 'ignore1',
+        path: 'path001',
       },
       {
         btnTxt: "turn the knob to 1650",
-        path: 'warp1650',
-      },
-      {
-        btnTxt: "turn the knob to 1516",
-        path: 'path401',
+        path: 'path101',
       },
       {
         btnTxt: "turn the knob to 950",
         path: 'warp950',
       },
       {
-        btnTxt: "turn the knob to 700",
-        path: 'warp700',
+        btnTxt: "turn the knob to 704",
+        path: 'path401',
       }
     ]
   }],
 
-  ["warp1650", {
+  ["path101", {
     storyText: "After some pretty crazy physics-defying stuff, you wind up in the year 370. More's changed than your your time period, though. You're now a woman, surprise if you weren't before! You decide to:",
     buttons: [
       {
         btnTxt: "lie down and cry! This is bizarre!",
-        path: 'liedownandcry',
+        path: 'path102',
       },
       {
         btnTxt: "go to the market and find something to eat; you're starving!",
-        path: 'marketeat',
+        path: 'path110',
       },
       {
         btnTxt: "find some new clothes so you don't look so out of place!",
-        path: 'findnewclothes',
+        path: 'path124',
       },
     ]
   }],
 
-  ["liedownandcry", {
+  ["path102", {
     storyText: "After crying for a fair bit, you are starting to compose yourself when you hear someone behind you. You're not really sure what language you hear coming out of the person's mouth, but it sounds like Latin. You decide to:",
     buttons: [
       {
         btnTxt: "try to play along with what he's saying; avoid getting on his bad side!",
-        path: 'playalong1',
+        path: 'path103',
       },
       {
         btnTxt: "ignore what he's trying to say and try and get the time machine to take you back.",
-        path: 'ignorefixmachine',
+        path: 'path109',
       },
     ]
   }],
 
-  ["playalong1", {
+  ["path103", {
     storyText: "The man motions for you to follow him. You do, and he takes you to a small vineyard that it looks like he runs. He gives you food and puts you to work with the plants. Turns out, you're now a servant. After a few days, you start piecing together what he's saying, and he wants you to marry one of his other servants and have many servant children. You decide to:",
     buttons: [
       {
         btnTxt: "accept. You've resigned yourself to your fate and you don't know what else you'd do anyways.",
-        path: 'marrytheservant',
+        path: 'path104',
       },
       {
         btnTxt: "refuse; he can't tell you what to do!",
-        path: 'refusetheservant',
+        path: 'path105',
       },
       {
         btnTxt: "tell him you accept, but that night, sneak out of the servants’ quarters.",
-        path: 'sneakoutservant',
+        path: 'path106',
       },
     ]
   }],
 
-  ["marrytheservant", {
+  ["path104", {
     storyText: "You marry the servant. Luckily, your husband is fairly gentle. He only beats you occasionally and you bear him many children. You live your life and die of some illness at 47 because you have no access to medical care. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["refusetheservant", {
+  ["path105", {
     storyText: "Turns out, that was the wrong choice. You’re beaten severely and life becomes much more difficult. You’re eventually sold as a slave and the rest of life is miserable. You’re raped a lot, beaten even more, and die young, wishing you had made a different choice. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["sneakoutservant", {
+  ["path106", {
     storyText: "You sneak out and start running through the woods on the side of the road. Long after you’re tired, slow, and hungry, you find some mushrooms, the first edible-looking plant you’ve seen in a few days. You decide to:",
     buttons: [
       {
         btnTxt: "eat the mushrooms;you're starving!",
-        path: 'eatmushrooms',
+        path: 'path107',
       },
       {
         btnTxt: "leave them alone; they look pretty sketchy; you’ll find something else to eat, hopefully...",
-        path: 'leavemushrooms',
+        path: 'path108',
       },
     ]
   }],
 
-  ["eatmushrooms", {
+  ["path107", {
     storyText: "The mushrooms were poisonous – that or you got some fatal disease randomly. You die that evening in a significant amount of pain. Sad days! THE END",
-    buttons: [],
-  }],
-
-  ["leavemushrooms", {
-    storyText: "You don’t find anything else do eat; after begging food off passers-by for a few days and getting raped once, you starve to death. Should have taken your chance with the mushrooms. THE END",
-    buttons: [],
-  }],
-
-  ["ignorefixmachine", {
-    storyText: "You start pushing buttons on the time machine, and it lights up and makes time-machiney sounds. The guy who was trying to you freaks out and runs away. A few seconds later, you’re back where you started. You decide to:",
     buttons: [
       {
-        btnTxt: "pick another setting. What's the worst that could happen? Turn th knob to 950.",
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
+  }],
+
+  ["path108", {
+    storyText: "You don’t find anything else do eat; after begging food off passers-by for a few days and getting raped once, you starve to death. Should have taken your chance with the mushrooms. THE END",
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
+  }],
+
+  ["path109", {
+    storyText: "You start pushing buttons on the time machine, and it lights up and makes time-machiney sounds. The guy who was trying to talk to you freaks out and runs away. A few seconds later, you’re back where you started - the year 2020. You decide to:",
+    buttons: [
+      {
+        btnTxt: "pick another setting. What's the worst that could happen? Turn the knob to 950.",
         path: 'warp950',
       },
       {
         btnTxt: "walk away as fast as you can! You're done with time travel!",
-        path: 'ignore1',
+        path: 'path001',
       },
       {
-        btnTxt: "give the machine one more chance; turn the knob to 700",
-        path: 'warp700',
+        btnTxt: "give the machine one more chance; turn the knob to 704",
+        path: 'path401',
       },
     ]
   }],
 
-  ["marketeat", {
+  ["path110", {
     storyText: "On your way to the market, you notice a group of men staring at you. They look hostile. You decide to:",
     buttons: [
       {
         btnTxt: "start running! You want to get away from those creeps.",
-        path: 'runfromcreeps',
+        path: 'path111',
       },
       {
         btnTxt: "stay calm and ignore them.",
-        path: 'ignorecreeps',
+        path: 'path115',
       },
     ]
   }],
 
-  ["runfromcreeps", {
+  ["path111", {
     storyText: "You don’t get very far before you wind up in a dead-end alley. The creepy men you saw following you turn into the alley and come toward you. You decide to:",
     buttons: [
       {
         btnTxt: "Fight!",
-        path: 'fightcreeps',
+        path: 'path112',
       },
       {
         btnTxt: "Try to talk your way out of this!",
-        path: 'talktocreeps',
+        path: 'path114',
       },
     ]
   }],
 
-  ["fightcreeps", {
+  ["path112", {
     storyText: "You give it your best shot, but they almost instantly overpower you. They hit you on the side of the head, and everything goes black.",
     buttons: [
       {
         btnTxt: "Next",
-        path: 'monasteryconclusion',
+        path: 'path113',
       },
     ]
   }],
 
-  ["monasteryconclusion", {
+  ["path113", {
     storyText: "If you had lived two centuries later, you would have had a small chance of being rescued by a monk or a nun. Unfortunately, nobody comes to help you, and you die. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["talktocreeps", {
+  ["path114", {
     storyText: "You don't understand what they're saying, but you try not to make them angry. Apparently, you don't do a good job, because they get angry. They grab you, one of them rapes you, and then they beat you into unconsciousness.",
     buttons: [
       {
         btnTxt: "Next",
-        path: 'monasteryconclusion',
+        path: 'path113',
       },
     ]
   }],
 
-  ["ignorecreeps", {
+  ["path115", {
     storyText: "You keep walking and the men don’t follow you; eventually, you reach the market. As you’re looking over the merchandise, you encounter a middle-aged balding man who looks friendly. You decide to:",
     buttons: [
       {
         btnTxt: "Ignore him -- you've had bad luck with men up to now.",
-        path: 'ignorejerome',
+        path: 'path116',
       },
       {
         btnTxt: "Try and start a conversation; maybe he can help!",
-        path: 'noclothestalktojerome',
+        path: 'path118',
       },
     ]
   }],
 
-  ["ignorejerome", {
+  ["path116", {
     storyText: "After trying to buy food a few times (they don’t accept your money), you get discouraged and give up. You decide to try and make your way to the countryside; maybe you can find a farm there where you can work for food. As you’re leaving the city, you meet a man and try and talk to him. He looks like he can help you. You decide to:",
     buttons: [
       {
         btnTxt: "Keep talking to him; hopefully he an give you some help",
-        path: 'playalong1',
+        path: 'path103',
       },
       {
         btnTxt: "Steer clear of him! You can do this on your own!",
-        path: 'dieofstarvation1',
+        path: 'path117',
       },
     ]
   }],
 
-  ["dieofstarvation1", {
+  ["path117", {
     storyText: "You wander around for a few days, but you can’t find anyone willing to help you. Eventually, you starve to death. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["noclothestalktojerome", {
+  ["path118", {
     storyText: "You start talking to him, and he looks up at you. He clearly can’t understand you, and he looks at you like you just insulted him. He calls the guards that are stationed nearby, and they take you to the edge of the city, where they drop you off. You decide to:",
     buttons: [
       {
         btnTxt: "Go back to the market; maybe you can steal some food!",
-        path: 'gobacktomarket',
+        path: 'path119',
       },
       {
         btnTxt: "head out into the country; you can do this on your own!",
-        path: 'dieofstarvation1',
+        path: 'path117',
       },
     ]
   }],
 
-  ["gobacktomarket", {
+  ["path119", {
     storyText: "You start heading back to the market, and the road forks. You don't really remember how to get there again; you decide to:",
     buttons: [
       {
         btnTxt: "turn right.",
-        path: 'runfromcreeps',
+        path: 'path111',
       },
       {
         btnTxt: "turn left.",
-        path: 'turnleft1',
+        path: 'path120',
       },
     ]
   }],
 
-  ["turnleft1", {
+  ["path120", {
     storyText: "23- You take the left fork, and it takes you straight to the market. You now have to decide what to steal to eat! You decide to:",
     buttons: [
       {
         btnTxt: "steal some fish.",
-        path: 'stealfood1',
+        path: 'path121',
       },
       {
         btnTxt: "steal some fruit.",
-        path: 'stealfood1',
+        path: 'path121',
       },
       {
         btnTxt: "try to talk to that man again; he's still there!",
-        path: 'noclothestalktojerome',
+        path: 'path118',
       },
     ]
   }],
 
-  ["stealfood1", {
+  ["path121", {
     storyText: "You go toward the stand, grab some food, and take off! You hear someone behind you giving chase. When the road forks, you decide to:",
     buttons: [
       {
         btnTxt: "turn left.",
-        path: 'runfromcreeps',
+        path: 'path111',
       },
       {
         btnTxt: "turn right.",
-        path: 'escapewithfood',
+        path: 'path122',
       },
     ]
   }],
 
-  ["escapewithfood", {
+  ["path122", {
     storyText: "You nearly get caught, but you make it out – barely! You eat your spoils and head out into the countryside. You steal whenever you need food, but after a few weeks, there’s a dry spell in your pickings. You eventually sneak onto another farm with a chicken yard. You decide to:",
     buttons: [
       {
         btnTxt: "steal a chicken.",
-        path: 'stealchicken',
+        path: 'path123',
       },
       {
         btnTxt: "leave the chickens; the place looks more secure than you originally thought...",
-        path: 'sneakoutservant',
+        path: 'path106',
       },
     ]
   }],
 
-  ["stealchicken", {
+  ["path123", {
     storyText: "You go into the chicken yard, grab a chicken, then take off; as you’re running off, you feel a sharp pain between your shoulder blades. You fall, realizing you’ve just been shot. You die in a great amount of pain. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["findnewclothes", {
+  ["path124", {
     storyText: "You wander around for a while, getting a sense of what these people dress like. By some random chance, you somehow manage to acquire some clothes that help you blend in. Now, you decide to:",
     buttons: [
       {
         btnTxt: "head toward the market; you need food! ",
-        path: 'marketwithclothes',
+        path: 'path125',
       },
       {
         btnTxt: "go exploring! You can eat later.",
-        path: 'exploringclothes',
+        path: 'path131',
       },
     ]
   }],
 
-  ["marketwithclothes", {
+  ["path125", {
     storyText: "You go to the market and look around. You realize that you can’t understand what anyone’s saying. You try talking to a few merchants, but don’t get very far. You then see a middle-aged balding man who looks like he might help. You decide to:",
     buttons: [
       {
         btnTxt: "ignore him; you can't trust anybody here!",
-        path: 'ignorejerome',
+        path: 'path116',
       },
       {
         btnTxt: "try to start a conversation with him!",
-        path: 'talktojeromeclothes',
+        path: 'path126',
       },
     ]
   }],
 
-  ["talktojeromeclothes", {
+  ["path126", {
     storyText: "As you go up to him, he looks up at you like he recognizes you. He starts talking, but you don’t understand anything! He looks excited though and acts like he wants you to follow him. You decide to:",
     buttons: [
       {
         btnTxt: "ignore him -- this looks a little sketchy...",
-        path: 'ignorejerome',
+        path: 'path116',
       },
       {
         btnTxt: "follow him!",
-        path: 'followjerome',
+        path: 'path127',
       },
     ]
   }],
 
-  ["followjerome", {
+  ["path127", {
     storyText: "You follow him and he leads you to a home where he introduces you to a woman. After a long, frustrating game of charades, you realize she’s inviting you to stay with her. You decide to:",
     buttons: [
       {
         btnTxt: "accept the invitation; what else are you going to do?",
-        path: 'accepttostay',
+        path: 'path128',
       },
       {
         btnTxt: "Politely refuse; you don't want to be agreeing to something you don't ",
-        path: 'gobacktomarket',
+        path: 'path119',
       },
     ]
   }],
 
-  ["accepttostay", {
+  ["path128", {
     storyText: "You go into her home, where she gives you a room and food. After a few days, you start understanding what she’s been trying to tell you. Apparently, that man you saw in the market had had a vision where he saw you, and that you were to enter one of the first Christian convents. You’re understandably confused after hearing this speech, and you decide to:",
     buttons: [
       {
         btnTxt: "get out of this! You want no part of this strangeness! ",
-        path: 'leaveconvent',
+        path: 'path129',
       },
       {
         btnTxt: "go along with it; do you have much of an option?",
-        path: 'joinconvent',
+        path: 'path130',
       },
     ]
   }],
 
-  ["leaveconvent", {
+  ["path129", {
     storyText: "Luckily, the lady allows you to leave. You don’t really know what to do next, but you decide to:",
     buttons: [
       {
         btnTxt: "go back to the market; maybe you can find someone to help you.",
-        path: 'gobacktomarket',
+        path: 'path119',
       },
       {
         btnTxt: "go exploring! See what else you can find!",
-        path: 'exploringclothes',
+        path: 'path131',
       },
     ]
   }],
 
-  ["joinconvent", {
+  ["path130", {
     storyText: "Over the next few months, you learn Latin, you receive instruction from both the woman you’re living with and the man you met in the market (turn out, it’s St. Jerome!). You’re baptized and live reasonably well as one of the first generations of Christian women! THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
-  ["exploringclothes", {
+  ["path131", {
     storyText: "Luckily, the lady allows you to leave. You don’t really know what to do next, but you decide to:",
     buttons: [
       {
         btnTxt: "go back to the market; maybe you can find someone to help you.",
-        path: 'gobacktomarket',
+        path: 'path119',
       },
       {
         btnTxt: "go exploring! See what else you can find!",
-        path: 'exploringclothes',
+        path: 'path131',
       },
     ]
   }],
 
-  ["exploringclothes", {
+  ["path131", {
     storyText: "Now that you know the language a little, you can find your way around well enough. After a few hours, though, you need to figure out what to do. You decide to:",
     buttons: [
       {
         btnTxt: "wind your way back to the market; maybe Jerome can help you.",
-        path: 'gobacktomarket',
+        path: 'path119',
       },
       {
         btnTxt: "head out to the countryside; maybe you can find a place to stay on a farm somewhere.",
-        path: 'dieofstarvation',
+        path: 'path134',
       },
       {
         btnTxt: "start walking towards the business center; you haven't really explored there yet.",
-        path: 'businesscenter',
+        path: 'path132',
       },
     ]
   }],
 
-  ["businesscenter", {
+  ["path132", {
     storyText: "As you walk through the streets, some Roman soldiers stop you. They accuse you of some crime; you don't really follow what they're saying, but you wind up in jail. That night, you think you might escape. You decide to:",
     buttons: [
       {
         btnTxt: "sneak out and head for the hills!",
-        path: 'sneakoutservant',
+        path: 'path106',
       },
       {
         btnTxt: "stay put! You're innocent!",
-        path: 'deathbydrowning',
+        path: 'path133',
       },
     ]
   }],
 
-  ["deathbydrowning", {
+  ["path133", {
     storyText: "When your trial comes, everything is a blur, but before long, you're sentenced to death by something called Poena cullei, whatever that means. A few days later, you're tied up and put in a bad along with a snake, a dog, a monkey, and a rooster and thrown into a river. You're not sure which kills you first, the animals or the water. In either case, you die. THE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
+  }],
+  ["path134", {
+    storyText: "Unfortunately, there aren't too many farms that accept your presence, and you are cast away wherever you go. You wander aimlessly for days, parched for water and barely living off of that candy bar in your pocket. Ill-equipped to survive on your own, you eventually die of starvation. THE END",
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
 
 
@@ -463,7 +518,7 @@ export default new Map([
   ------------------------------------------------
   */
   ["path401", {
-    storyText: "The machine shakes more than the Magna earthquake in Utah and for a minute you start to get nervous. Then everything settles down. Nervously, you open the door and step outside. Looking around, you see a small band of travelers headed east. You decide to:",
+    storyText: "The machine shakes more than the Magna earthquake in Utah and for a minute you start to get nervous. Then everything settles down. Nervously, you open the door and step outside, finding yourself in the year 1516. Looking around, you see a small band of travelers headed east. You decide to:",
     buttons: [
       {
         btnTxt: "Catch up to the travelers and ask for some food",
@@ -544,7 +599,7 @@ export default new Map([
     ]
   }],
   ["path406", {
-    storyText: "The man tells you that everyone MUST work as hard as they can. It sounds like tough work, but he explains that it is only for 6 hours per day, after which they are allowed to do anything they like - so long as it’s productive and well spent. However, he warns that lazyness is not tolerated, as enforced by the Syphogrants. You decide to:",
+    storyText: "The man tells you that everyone MUST work as hard as they can. It sounds like tough work, but he explains that it is only for 6 hours per day, after which they are allowed to do anything they like - so long as it’s productive and well spent. However, he warns that laziness is not tolerated, as enforced by the Syphogrants. You decide to:",
     buttons: [
       {
         btnTxt: "Be lazy anyways",
@@ -597,11 +652,21 @@ export default new Map([
   }],
   ["path410", {
     storyText: "You are honored for your decision. Your family visits you one last time, sends their love, and your life is ended painlessly.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path411", {
     storyText: "You fight the illness for weeks and weeks. The pain grows more and more intense until you are writhing in agony. Ever hoping you will get better, you only find the sickness gets worse. In your final moments - between bouts of screaming - you wish that you listened to your friends and ended your life sooner. You draw your last breath and blissfully find respite in death. \n\n THE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path412", {
     storyText: "You leave those crazies behind and start traveling elsewhere on the island. Surely there are some people who aren’t so focused on obeying the law to the letter. While on the road, you are stopped by a group travelling in the other direction. They ask you for your travel permission papers and you respond that you don’t have any. They wonder why someone would travel without permission, especially when it is normally granted without any problems. Regardless, they know what they must do...",
@@ -652,7 +717,12 @@ export default new Map([
   }],
   ["path415", {
     storyText: "Through shady means, you somehow position yourself as the Chief Executive. Nice. However, all the power begins to go to your head and people soon discover the awful things you did to gain the seat. You order the death of dissenters, but soon find the people aren’t too keen to follow your tyranny. Instead, you are dismissed, another is elected in your stead, and you are relegated to a meaningless life as a slave.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path416", {
     storyText: "Asking around, you discover that the senate meets as a committee once every three days. They discuss the affairs of the state, but never make a decree until discussing the issue on three separate occasions. Initially thinking this to be wildly inefficient, you find that their process of \”sleeping on it\” allows them to effectively address all conflicts in the island in a swift and positive manner. Having had your fill of government, you decide to: ",
@@ -855,11 +925,11 @@ export default new Map([
       },
       {
         btnTxt: "Go exploring",
-        path: 'path417',
+        path: 'path414',
       },
       {
         btnTxt: "Go grab a bite to eat",
-        path: 'path',
+        path: 'path417',
       },
     ]
   }],
@@ -882,7 +952,12 @@ export default new Map([
   }],
   ["path431", {
     storyText: "You wander. And wander. And wonder while you wander: where am I? Eventually, you collapse in the heat of the sun, on the brink of death. You are found by some mercenaries who hear you muttering “darned time machine,” over and over. They lose interest, leave you, and you die of heat exhaustion. \n\nTHE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
   ["path432", {
     storyText: "You walk along the coast for days, just trying to reach a place that is not Nowheria. You survive through begging and finding crabs on the shoreline. You finally reach what seems like Somewhere and are captured by a traveling military. You are taken to the heart of Italy and find yourself within a proper civilization. Breaking free from the military, you run off in the city and compose yourself.",
@@ -945,7 +1020,12 @@ export default new Map([
   */
   ["path435", {
     storyText: "The time machine returns you to your original timeline, sprays confetti everywhere, and welcomes you home. You step outside and realize that you are quite satisfied with your present life circumstances. Leaving the machine, you remember that you have a synthesis for your honors class due tomorrow and sigh as you wonder what you will write.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path436", {
     storyText: "You place the crown atop your head and declare yourself ruler over the princedom. You then realize that you are not too experienced with ruling a princedom, and people are getting quite upset. You need to act quickly to quiet rebellion and assert yourself as ruler. Luckily, you find a written text by a man named Machiavelli, which seems to offer all the advice you could possibly need. Scanning the text, you feel prepared and ready to face the world. In order to keep you province, you:",
@@ -962,7 +1042,12 @@ export default new Map([
   }],
   ["path437", {
     storyText: "The people grow to hate you and your taxes. You try to explain that the taxes are for their best interests - you will grow the power of the province, expand, and improve the quality of life. They won’t hear you, find you contemptible and usurp your power. You are killed in a mobbed frenzy.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path438", {
     storyText: "You hire assassins and kill the man who gave you the crown. You also kill every member of his family - ensuring that they can never take your power from you. Though distasteful, you reason it was for the best of the princedom and stability. Your counsellor then enters your chambers and tells you that rebellion is brewing among the people. It isn’t so bad yet, but it could get worse. He ends by graciously reminding you of your infinite wisdom and endless ability to rule. You:",
@@ -1013,7 +1098,12 @@ export default new Map([
   }],
   ["path441", {
     storyText: "The flames engulf your house as you lie whimpering on the ground. Choking on the black ash around you, you resolve to stay put, even as things are getting uncomfortably hot. As you burn, you let out a piercing scream and finally die, wishing you had spent more time reading that text from Machiavelli.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path442", {
     storyText: "Escaping the flames, you bravely step outside and face the mob. You ask what they want and they clamor: “YOUR HEAD!” You: ",
@@ -1146,7 +1236,12 @@ export default new Map([
   }],
   ["path451", {
     storyText: "You pass the crown off to someone else and they have just enough time to catch your name before you disappear around a corner. You resolve to live as a citizen and watch as that dude you gave the crown to gains power and establishes his domain. One day, while walking from the market, you gasp as you feel a sharp sting in your stomache - you have been stabbed. As you fall in a puddle of blood, your assassin stands over you and explains that a previous owner of the crown must not be allowed to live and then departs as your vision blurs into darkness.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path452", {
     storyText: "You are contacted by the neighboring province of Bologna. They want to establish friendly relations and are offering to be an ally in case of a future war. You make mutual agreements and things go well. Trade has made both of you richer and you haven’t had to worry about defending yourself from Bologna. Months pass and you hear news that Bologna is under attack from the Florentines. You decide to:",
@@ -1218,7 +1313,12 @@ export default new Map([
   }],
   ["path456", {
     storyText: " Unfortunately, it would seem that the sign was telling the truth (imagine that). You get lost in the Italian wilderness and travel for 50 years, looking for the time machine. One day, as you approach crest a ridge you notice the shining glint of a large metal object, waaay down at the bottom of a basin. In a start you realize that it is a time machine - not yours, but a time machine all the same. You sprint towards your salvation - as fast as your old and feeble knees can take you - and trip on a rock. Rolling down the rest of the way, crashing through brush and tree, you finally slow to a stop and are too injured to move. You die 2 days later, eying your mechanism of escape, but never being able to reach it.\n\nTHE END",
-    buttons: [],
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
   }],
   ["path457", {
     storyText: "Against the advice of Machiavelli’s pamphlet, you build a fortress because, hey! It’s a fortress! Why not? You feel very cool for several weeks and replay scenes from Lord of the Rings in your head. You practice shooting a bow and pretend you are Legolas. However, in focusing so much on building your fortress you have forgotten to regard your people. They hate you now. Worse still, a foreign army is invading your lands and you worry they may overpower your military. You decide to:",
@@ -1252,7 +1352,12 @@ export default new Map([
   }],
   ["path459", {
     storyText: "You hide in your fortress for several minutes, praying that the structural engineering is as capable as the movies imply. In a start, you hear the fortress gates opening up and you realize that your own people let the enemy in. Terrified, you await your fate, praying you won’t be found. Minutes later, you see shadows approaching. You think of running, but find that your feet refuse to move. You are grabbed by the enemy and subsequently beheaded.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path460", {
     storyText: "You grab a rope and throw it over the back of the fortress. Incredibly, the enemy forces only watch the front and so you are able to climb out and sneak away. With limited options you:",
@@ -1273,7 +1378,12 @@ export default new Map([
   }],
   ["path461", {
     storyText: "You died. \n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path462", {
     storyText: "You travel for days, listening to whispers and following rumors of rumors. You finally meet a man named Hythloday who promises that he can take you to this mysterious land. You:",
@@ -1358,7 +1468,12 @@ export default new Map([
   }],
   ["path467", {
     storyText: "You hire the best planners your limited funds can buy and do your best to be the hostest-with-the-mostest. However, despite your planners best efforts, things do not go well. The attendees view their surroundings with disgust and hold you in contempt. You are no longer fit to rule and they have decided that you are replaceable. Overnight, you are overthrown and live the rest of your life trying to hide your face and live in anonymity.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
   ["path468", {
     storyText: "Despite trying to reclaim losses and accumulate funds, the people hate you even more. The city is falling apart and you seem to be doing nothing about it. They accuse you of wasting money on things that don’t matter, while closing the purse where it is needed. Realizing that you made too many mistakes to be forgiven, you quietly slip out of town and do your best not to be noticed. ",
@@ -1431,6 +1546,11 @@ export default new Map([
   }],
   ["path473", {
     storyText: "The Florentines overwhelmingly destroy Bologna and turn their focus on you. Realizing you have no allies, you try to defend yourself and epically fail. Your city is ransacked and pillaged. You are beheaded and consequently, die.\n\nTHE END",
-    buttons: []
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ]
   }],
 ])

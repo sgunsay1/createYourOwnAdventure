@@ -16,6 +16,16 @@ export default new Map([
   //This is the end of the startPath
 
 
+  ["notImplemented", {
+    storyText: "Hmmmmm... Sorry. It seems like we haven't implemented this path yet. Please let Seth know so that he can fix it!",
+    buttons: [
+      {
+        btnTxt: "Start Over",
+        path: "startPath",
+      }
+    ],
+  }],
+
   ["path001", {
     storyText: "You have no sense of adventure; you live your entire life in mediocrity, always wondering what would have happened...  THE END",
     buttons: [
@@ -40,7 +50,7 @@ export default new Map([
       },
       {
         btnTxt: "turn the knob to 950",
-        path: 'warp950',
+        path: 'notImplemented',
       },
       {
         btnTxt: "turn the knob to 704",
@@ -158,7 +168,7 @@ export default new Map([
     buttons: [
       {
         btnTxt: "pick another setting. What's the worst that could happen? Turn the knob to 950.",
-        path: 'warp950',
+        path: 'notImplemented',
       },
       {
         btnTxt: "walk away as fast as you can! You're done with time travel!",
@@ -1004,7 +1014,7 @@ export default new Map([
       },
       {
         btnTxt: "turn the knob to 950",
-        path: 'path',
+        path: 'notImplemented',
       },
     ]
   }],

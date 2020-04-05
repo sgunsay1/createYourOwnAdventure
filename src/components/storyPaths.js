@@ -2670,6 +2670,20 @@ export default new Map([
     ]
   }],
 
+  ["path339", {
+    storyText: "Once you have gotten all settled down and looked through your new room, one of Bertilak’s warriors comes to take you to dinner in the main dining hall. At one point Bertilak’s wife comes around and offers everyone a drink. You converse with all the men and enjoy a wonderful meal, before going to bed for the night. In the morning a warrior comes to tell you that Lord Bertilak is going hunting. You decide to: ",
+    buttons: [
+      {
+        btnTxt: "join Lord Bertilak and go hunting",
+        path: 'path345',
+      },
+      {
+        btnTxt: "stay in bed for another minute",
+        path: 'path343',
+      },
+    ]
+  }],
+
   ["path340", {
     storyText: "As you explore the castle you see the old and crippled Morgan le Faye through a crack in the door to a dingy old room in the highest tower. You decide to:",
     buttons: [

@@ -5,7 +5,7 @@ export default new Map([
     buttons: [
       { //This is the start of a button
         btnTxt: "Ignore it! Nothing good ever comes from time travel", //This is the text that will show up INSIDE of the button
-        path: 'path001', //This directs to a differnt object with it's own story. 
+        path: 'path001', //This directs to a different object with it's own story. 
       }, //This is the end of a button
       {
         btnTxt: "Go look at it; it's shiny...",
@@ -74,7 +74,7 @@ export default new Map([
 
 
   ["path101", {
-    storyText: "After some pretty crazy physics-defying stuff, you wind up in the year 370. More's changed than your your time period, though. You're now a woman, surprise if you weren't before! You decide to:",
+    storyText: "After some pretty crazy physics-defying stuff, you wind up in the year 370. More's changed than your time period, though. You're now a woman, surprise if you weren't before! You decide to:",
     buttons: [
       {
         btnTxt: "lie down and cry! This is bizarre!",
@@ -147,7 +147,7 @@ export default new Map([
     storyText: "You sneak out and start running through the woods on the side of the road. Long after you’re tired, slow, and hungry, you find some mushrooms, the first edible-looking plant you’ve seen in a few days. You decide to:",
     buttons: [
       {
-        btnTxt: "eat the mushrooms;you're starving!",
+        btnTxt: "eat the mushrooms; you’re starving!",
         path: 'path107',
       },
       {
@@ -181,7 +181,7 @@ export default new Map([
     storyText: "You start pushing buttons on the time machine, and it lights up and makes time-machiney sounds. The guy who was trying to you freaks out and runs away. A few seconds later, you’re back where you started. You decide to:",
     buttons: [
       {
-        btnTxt: "pick another setting. What's the worst that could happen? Turn th knob to 950.",
+        btnTxt: "pick another setting. What's the worst that could happen? Turn the knob to 950.",
         path: 'path201',
       },
       {
@@ -290,7 +290,7 @@ export default new Map([
     storyText: "After trying to buy food a few times (they don’t accept your money), you get discouraged and give up. You decide to try and make your way to the countryside; maybe you can find a farm there where you can work for food. As you’re leaving the city, you meet a man and try and talk to him. He looks like he can help you. You decide to:",
     buttons: [
       {
-        btnTxt: "Keep talking to him; hopefully he an give you some help",
+        btnTxt: "Keep talking to him; hopefully he can give you some help",
         path: 'path103',
       },
       {
@@ -437,7 +437,7 @@ export default new Map([
   }],
 
   ["path127", {
-    storyText: "You follow him and he leads you to a home where he introduces you to a woman. After a long, frustrating game of charades, you realize she’s inviting you to stay with her. You decide to:",
+    storyText: "You follow him, and he leads you to a home where he introduces you to a woman. After a long, frustrating game of charades, you realize she’s inviting you to stay with her. You decide to:",
     buttons: [
       {
         btnTxt: "accept the invitation; what else are you going to do?",
@@ -532,7 +532,7 @@ export default new Map([
   }],
 
   ["path134", {
-    storyText: "As you go to offer your help, the man freaks out and drops both his goat and his papers, and runs away. You see him duck into a house a few dozen yards up the road. You decide to:",
+    storyText: "As you go to offer your help, the man freaks out, drops both his goat and his papers, and runs away. You see him duck into a house a few dozen yards up the road. You decide to:",
     buttons: [
       {
         btnTxt: "grab the goat before it runs away! And pick up those papers.",
@@ -624,7 +624,7 @@ export default new Map([
   }],
 
   ["path143", {
-    storyText: "Augustine tells you that the papers were copies of letters written by Christians in Northern Africa that he was delivering to one Jerome. Augustine was in the process of conversion to Christianity and was coming to meet him for the first time. He tells you that when you met, he was so entranced by your beauty that he panicked. As he was running inside, he thought to himself: 'If that lady picks up the letters before getting the goat, I will know that she is chosen to God and inclined towards spiritual things. If she grabs the goat before the papers, I will know that she is a lustful person and sent by Satan to tempt me.' 'But,' he continues, 'when you knocked at my door I allowed myself to be led away from God’s path.' After hearing all this, you decide to:",
+    storyText: "Augustine tells you that the papers were copies of letters written by Christians in Northern Africa that he was delivering to one Jerome. Augustine was in the process of conversion to Christianity and was coming to meet him for the first time. He tells you that when you met, he was so entranced by your beauty that he panicked. As he was running inside, he thought to himself: 'If that lady picks up the letters before getting the goat, I will know that she is chosen to God and inclined towards spiritual things. If she grabs the goat before the papers, I will know that she is a lustful person and sent by Satan to tempt me.' 'But,' he continues, 'when you knocked at my door, I allowed myself to be led away from God’s path.' After hearing all this, you decide to:",
     buttons: [
       {
         btnTxt: "get up and leave; this guy is weird. Besides, there's more of the city to explore!",
@@ -649,7 +649,7 @@ export default new Map([
         path: 'path145',
       },
       {
-        btnTxt: "agree that it's a good thing; besides, you were getting bored with him anyhow. NOw you can go exploring!",
+        btnTxt: "agree that it's a good thing; besides, you were getting bored with him anyhow. Now you can go exploring!",
         path: 'path131',
       },
       {
@@ -670,14 +670,14 @@ export default new Map([
   }],
 
   ["path146", {
-    storyText: "Augustine looks at you quizzically and says, “What would you know of the things of God? You are not a virgin!” He seems grateful for your offer, but seems like he would rather forget about it. Then, after another week together, he tells you he’s leaving to return to Africa. Apparently, he’s engaged to be married and he’s decided that he needs to abandon sin and devote his life to God. So, he’s leaving you. A little perplexed, you decide to:",
+    storyText: "Augustine looks at you quizzically and says, “What would you know of the things of God? You are not a virgin!” He seems grateful for your offer but seems like he would rather forget about it. Then, after another week together, he tells you he’s leaving to return to Africa. Apparently, he’s engaged to be married and he’s decided that he needs to abandon sin and devote his life to God. So, he’s leaving you. A little perplexed, you decide to:",
     buttons: [
       {
         btnTxt: "ask to go with him.",
         path: 'path145',
       },
       {
-        btnTxt: "agree that it's a good thing; besides, you were getting bored with him anyhow. NOw you can go exploring!",
+        btnTxt: "agree that it's a good thing; besides, you were getting bored with him anyhow. Now you can go exploring!",
         path: 'path131',
       },
       {
@@ -691,7 +691,7 @@ export default new Map([
     storyText: "A few weeks later, Augustine leaves randomly. It was fun while it lasted, you figure... Now, you decide to:",
     buttons: [
       {
-        btnTxt: "wind your way bck to the market; maybe you'll find something cool there. Also, that goat's probably still there; take it to barter with -- that might help!",
+        btnTxt: "wind your way back to the market; maybe you'll find something cool there. Also, that goat's probably still there; take it to barter with -- that might help!",
         path: 'path136',
       },
       {
@@ -799,7 +799,7 @@ export default new Map([
     storyText: " After meeting all these weird people, you’re kind of done being here. You still remember where you left the time machine, so you go back there and luckily it looks like it still works. You decide to: ",
     buttons: [
       {
-        btnTxt: "pick another setting. What's the worst that could happen? Turn th knob to 950.",
+        btnTxt: "pick another setting. What's the worst that could happen? Turn the knob to 950.",
         path: 'path201',
       },
       {
@@ -825,7 +825,7 @@ export default new Map([
         path: 'path156',
       },
       {
-        btnTxt: "go back and find the time machine; McDonald's is clling your name!",
+        btnTxt: "go back and find the time machine; McDonald's is calling your name!",
         path: 'path154',
       },
       {
@@ -853,7 +853,7 @@ export default new Map([
     storyText: "Apparently, you should have paid more attention in your botany class. You find a bunch of somewhat edible-looking mushrooms, but you’re not sure if you should eat them or not. You decide:",
     buttons: [
       {
-        btnTxt: "eat the mushrooms;you're starving!",
+        btnTxt: "eat the mushrooms; you’re starving!",
         path: 'path107',
       },
       {
@@ -906,7 +906,7 @@ export default new Map([
   }],
 
   ["path161", {
-    storyText: " As you walk along the road, a pair of men confront you. You don’t even have to pick a fight; these are highwaymen, and want to rob you! You get ready to fight, and think about how you want to take these guys down. You decide to:",
+    storyText: " As you walk along the road, a pair of men confront you. You don’t even have to pick a fight; these are highwaymen and they want to rob you! You get ready to fight and think about how you want to take these guys down. You decide to:",
     buttons: [
       {
         btnTxt: "stab one of them in the chest.",
@@ -958,7 +958,7 @@ export default new Map([
   }],
 
   ["path165", {
-    storyText: "To get more food, you decide to find a farmer who can give you work. You stop a few people, but they are unwilling to help you. Eventually, you meet a good looking man who speaks a dialect you can’t understand, but it seems like he gets what you’re saying. He invites you to follow him. You decide to: ",
+    storyText: "To get more food, you decide to find a farmer who can give you work. You stop a few people, but they are unwilling to help you. Eventually, you meet a good-looking man who speaks a dialect you can’t understand, but it seems like he gets what you’re saying. He invites you to follow him. You decide to: ",
     buttons: [
       {
         btnTxt: "follow him; this is what you wanted!",
@@ -972,7 +972,7 @@ export default new Map([
   }],
 
   ["path166", {
-    storyText: "You follow the man from a distance, and follow him back to his farm. He owns a vineyard, and after gorging yourself on grapes, you see his chicken pen. You think that bringing a chicken with you would give you some food security. You sneak close and decide to:",
+    storyText: "You follow the man from a distance and follow him back to his farm. He owns a vineyard, and after gorging yourself on grapes, you see his chicken pen. You think that bringing a chicken with you would give you some food security. You sneak close and decide to:",
     buttons: [
       {
         btnTxt: "steal a chicken!",
@@ -1044,7 +1044,7 @@ export default new Map([
         path: 'path219',
       },
       {
-        btnTxt: "talk to a warrier next to you as you march with the army.",
+        btnTxt: "talk to a warrior next to you as you march with the army.",
         path: 'path227',
       },
       {
@@ -1131,7 +1131,7 @@ export default new Map([
   }],
 
   ["path209", {
-    storyText: "You drop the sword and any armor you had left in your hurry to follow. the tracks eventually disappear and you realize that the people must have used your time machine to get away. You are now stuck without any resources and you die of starvation in the mountains. THE END",
+    storyText: "You drop the sword and any armor you had left in your hurry to follow. The tracks eventually disappear, and you realize that the people must have used your time machine to get away. You are now stuck without any resources and you die of starvation in the mountains. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1255,7 +1255,7 @@ export default new Map([
   }],
 
   ["path219", {
-    storyText: "After marching for a while in silence with the main army, you hear a faint horn blowing. Suddenly the army turns around. As you continue marching in the other direction you see that the army is approaching a battlefield where one army is fleeing and the army is dead. You decide to:",
+    storyText: "After marching for a while in silence with the main army, you hear a faint horn blowing. Suddenly the army turns around. As you continue marching in the other direction you see that the army is approaching a battlefield where one army is fleeing and the other army is dead. You decide to:",
     buttons: [
       {
         btnTxt: "stay with the army.",
@@ -1269,7 +1269,7 @@ export default new Map([
   }],
 
   ["path220", {
-    storyText: "As you are travelling through the wilderness you run into a group of small wooden buildings. Children are running around, speaking a language you don’t understand. Some women are bustling about and you approach one of them. She backs away. But, a man now approaches you. He starts talking, and you can pick out some words, but you can tell he wants you to follow him. You can see there’s not many other places to go, so you follow him to another bigger building where all of the men are drinking and eating. You can kind of understand some random words that they are saying, or you think you can. The man from the head of the table approaches you and the man who led you here starts to walk away. You decide to:",
+    storyText: "As you are travelling through the wilderness you run into a group of small wooden buildings. Children are running around, speaking a language you don’t understand. Some women are bustling about, and you approach one of them. She backs away. A man now approaches you. He starts talking, and you can pick out some words, but you can tell he wants you to follow him. You can see there’s not many other places to go, so you follow him to another bigger building where all of the men are drinking and eating. You can kind of understand some random words that they are saying, or you think you can. The man from the head of the table approaches you and the man who led you here starts to walk away. You decide to:",
     buttons: [
       {
         btnTxt: "talk to the man in charge.",
@@ -1301,7 +1301,7 @@ export default new Map([
   }],
 
   ["path222", {
-    storyText: "You fight to the death against the Spanish. The main army gets there toolate to help. But, the Archbisho said that you would be saved for fighting honorably, so you end up going to heaven. THE END",
+    storyText: "You fight to the death against the Spanish. The main army gets there too late to help. However, the Archbishop said that you would be saved for fighting honorably, so you end up going to heaven. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1353,7 +1353,7 @@ export default new Map([
   }],
 
   ["path226", {
-    storyText: "You get too close to the party and they catch you sneaking around. You find out that the leader of the party is Ganelon. He decides to be genorous and let you either:",
+    storyText: "You get too close to the party and they catch you sneaking around. You find out that the leader of the party is Ganelon. He decides to be generous and let you either:",
     buttons: [
       {
         btnTxt: "go to the main army.",
@@ -1367,7 +1367,7 @@ export default new Map([
   }],
 
   ["path227", {
-    storyText: "You don't understand a the warrior's French. So, you just end up marching in silence. You decide to:",
+    storyText: "You don't understand the warrior's French. So, you just end up marching in silence. You decide to:",
     buttons: [
       {
         btnTxt: "go back to the time machine.",
@@ -1477,7 +1477,7 @@ export default new Map([
   }],
 
   ["path234", {
-    storyText: "The head man looks around, but there is a big enough crowd that he can’t really see you. You find out that everyone is pretty drunk and they don’t really care that you speak weirdly or you don’t look familiar. You start to pick up on some of the things that they are saying as you eat food laying around on the table. A woman comes around and gives everyone some of her drink. At the end of the night, people start to filter out of the hall. You decide to:",
+    storyText: "The head man looks around, but there is a big enough crowd that he can’t really see you. You find out that everyone is pretty drunk, and they don’t really care that you speak weirdly and look unfamiliar. You start to pick up on some of the things that they are saying as you eat food laying around on the table. A woman comes around and gives everyone some of her drink. At the end of the night, people start to filter out of the hall. You decide to:",
     buttons: [
       {
         btnTxt: "fall asleep under the table.",
@@ -1495,7 +1495,7 @@ export default new Map([
   }],
 
   ["path235", {
-    storyText: "The head man takes it, and smiles. He gestures for you to sit down next to him, though he keeps glancing nervously at your sword. You end up eating with him, and going to his home at the end of the night. Congratulations, you are now signed up as a warrior! The tribal king wants you to fight for him now. He gives you a place to stay and you start to learn the language. He and his knights offer combat training. You decide to:",
+    storyText: "The head man takes it, and smiles. He gestures for you to sit down next to him, though he keeps glancing nervously at your sword. You end up eating with him and going to his home at the end of the night. Congratulations, you are now signed up as a warrior! The tribal king wants you to fight for him now. He gives you a place to stay and you start to learn the language. He and his knights offer combat training. You decide to:",
     buttons: [
       {
         btnTxt: "accept; he has been gracious to you.",
@@ -1509,7 +1509,7 @@ export default new Map([
   }],
 
   ["path236", {
-    storyText: "The head man narrows his eyes and continues to gesture at your resources. You are confused and angry as he starts to shout at you. The men in the hall start to take notice and some of them get up and forcibly push you out of the building. You have nowhere to go, and this Germanic tribe has not accepted you. Because of territorialism, there isn’t another tribe within a reasonable distance and you do not have the stamina to make it back to where you were before. You die of starvation. THE END",
+    storyText: "The head man narrows his eyes and continues to gesture at your resources. You are confused and angry as he starts to shout at you. The men in the hall start to take notice and some of them get up and forcibly push you out of the building. You have nowhere to go, and this Germanic tribe has not accepted you. Because of territorialism, there isn’t another tribe within a reasonable distance, and you do not have the stamina to make it back to where you were before. You die of starvation. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1613,7 +1613,7 @@ export default new Map([
   }],
 
   ["path244", {
-    storyText: "You are actually surprisingly good as combat! You fight many battles with and for the king, until you are a better warrior than he is. You become his best knight, and when he honorably dies on the battlefield one day, you take his place. But, he has a beautiful daughter. You decide to:",
+    storyText: "You are actually surprisingly good as combat! You fight many battles with and for the king, until you are a better warrior than he is. You become his best knight, and when he honorably dies on the battlefield one day, you take his place. After taking his place, you remember that he has a beautiful daughter. You decide to:",
     buttons: [
       {
         btnTxt: "marry the king's daughter.",
@@ -1655,7 +1655,7 @@ export default new Map([
   }],
 
   ["path247", {
-    storyText: "You continue to fight honorably, and die a hero on the battlefield one day. But, you die alone, with no friends or family. THE END",
+    storyText: "You continue to fight honorably and die a hero on the battlefield one day. But you die alone, with no friends or family. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1675,7 +1675,7 @@ export default new Map([
   }],
 
   ["path249", {
-    storyText: "You can now take your place as king. You have some children with your new wife. The boys are all taught how to fight well from a young age so that they can take your place as king. The girls are eventually married off to other tribe’s princes and honorably act as peaceweavers. You die honorably in battle. THE END",
+    storyText: "You can now take your place as king. You have some children with your new wife. The boys are all taught how to fight well from a young age so that they can take your place as king. The girls are eventually married off to other tribe’s princes and honorably act as peace weavers. You die honorably in battle. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1773,7 +1773,7 @@ export default new Map([
   }],
 
   ["path256", {
-    storyText: "As you talk to the demon you find out its story of endless time spent under the water, stuck in a jar. But, the demon says that it vowed to kill whomever opened his jar. You decide to:",
+    storyText: "As you talk to the demon you find out its story of endless time spent under the water, stuck in a jar. You also learn that the demon says that it vowed to kill whoever opened his jar. You decide to:",
     buttons: [
       {
         btnTxt: "trick it back into the jar and take it to the king.",
@@ -1791,7 +1791,7 @@ export default new Map([
   }],
 
   ["path257", {
-    storyText: "With your gift you become a well respected advisor to the King. As you ingratiate yourself, the other people in court become jealous and make the King think that you betrayed him. You decide to:",
+    storyText: "With your gift you become a well-respected advisor to the King. As you ingratiate yourself, the other people in court become jealous and make the King think that you betrayed him. You decide to:",
     buttons: [
       {
         btnTxt: "take what resources you have and go on the run for some months.",
@@ -1817,7 +1817,7 @@ export default new Map([
         path: 'path261',
       },
       {
-        btnTxt: "resign yourself to being a fisherman.",
+        btnTxt: "resign yourself to be a fisherman.",
         path: 'path259',
       },
       {
@@ -1884,7 +1884,7 @@ export default new Map([
   }],
 
   ["path263", {
-    storyText: "As you are travelling you come across an oasis. As you sit and eat some dates you inadvertently throw a date seed super hard and kill a demon’s son. That demon comes after you, and says that you need to die for what you did. Other people come by and tell stories that stave off of the demon’s anger and he lets you go. You decide to:",
+    storyText: "As you are travelling you come across an oasis. As you sit and eat some dates you inadvertently throw a date seed super hard and kill a demon’s son. That demon comes after you and says that you need to die for what you did. Other people come by and tell stories that stave off of the demon’s anger and he lets you go. You decide to:",
     buttons: [
       {
         btnTxt: "keep travelling.",
@@ -1976,7 +1976,7 @@ export default new Map([
   }],
 
   ["path270", {
-    storyText: "Once your wife has been a speechless animal or a while she is truly grateful to you. You two grow old and fat together and live happily ever after. THE END",
+    storyText: "After your wife has been a speechless animal for a while, she becomes truly grateful to you. You two grow old and fat together and live happily ever after. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -1993,7 +1993,7 @@ export default new Map([
         path: 'path272',
       },
       {
-        btnTxt: "have someone follow her,because now you are unsure of yourself.",
+        btnTxt: "have someone follow her, because now you are unsure of yourself.",
         path: 'path275',
       },
     ]
@@ -2050,7 +2050,7 @@ export default new Map([
   }],
 
   ["path275", {
-    storyText: "The person who followed your wife sees her with her lover. When you find out you fly into a rage and attempt to kill her lover. But, you end up only disabling him. She leaves you in order to tend to him, and turns you into stone from the waist down (which keeps you alive). Years later a prince comes and rescues you, killing your wife and her lover. But, you never fully recover. You decide to:",
+    storyText: "The person who followed your wife sees her with her lover. When you find out you fly into a rage and attempt to kill her lover. Unfortunately, you end up only disabling him. She leaves you in order to tend to him and turns you into stone from the waist down (which keeps you alive). Years later a prince comes and rescues you, killing your wife and her lover. However, you never fully recover. You decide to:",
     buttons: [
       {
         btnTxt: "head for the hills, never to return!",
@@ -2082,7 +2082,7 @@ export default new Map([
   ------------------------------------------------
   */
   ["path301", {
-    storyText: "The time machine rattles and shakes as you make your way through time and space to the year 1320 AD. Everything feels weird, and you close your eyes to try and control your newfound motion sickness. When you open your eyes you find yourself in the corner of a dark courtyard. There is a small castle in front of you and large walls behind you. You decide to:",
+    storyText: "The time machine rattles and shakes as you make your way through time and space to the year 1320 AD. Everything feels weird, and you close your eyes to try and control your newfound motion sickness. When you open your eyes, you find yourself in the corner of a dark courtyard. There is a small castle in front of you and large walls behind you. You decide to:",
     buttons: [
       {
         btnTxt: "climb the wall.",
@@ -2213,7 +2213,7 @@ export default new Map([
   }],
 
   ["path309", {
-    storyText: "Once you get back to the feasting area you run up to the king and try to tell him that danger is coming. The King looks at you weirdly and says something that sounds kind of like “Why do you sound like that?” But, it is hard for you to understand what he is saying. As you try explaining to the king again, the rider bursts into the hall and challenges the King, who is apparently King arthur. You decide to:",
+    storyText: "Once you get back to the feasting area you run up to the king and try to tell him that danger is coming. The King looks at you weirdly and says something that sounds kind of like “Why do you sound like that?” But it is hard for you to understand what he is saying. As you try explaining to the king again, the rider bursts into the hall and challenges the King, who is apparently King Arthur. You decide to:",
     buttons: [
       {
         btnTxt: "challenge the rider to protect the king.",
@@ -2267,7 +2267,7 @@ export default new Map([
   }],
 
   ["path312", {
-    storyText: "King Arthur starts talking to the rider, who is dressed in all green and has a large battle axe. As he is talking, he gestures toward you so you look at him inquisitively. He tells you to stand up and challenge the rider. You decide to:",
+    storyText: "King Arthur starts talking to the rider, who is dressed in all green and has a large battle axe. As he is talking, he gestures toward you, so you look at him inquisitively. He tells you to stand up and challenge the rider. You decide to:",
     buttons: [
       {
         btnTxt: "challenge the rider for King Arthur",
@@ -2341,7 +2341,7 @@ export default new Map([
   }],
 
   ["path3162", {
-    storyText: "You get into the marketplace and start wandering around. There are many people buying food and other goods. But, you also see some people from the feast last night wandering around the market. You decide to:",
+    storyText: "You get into the marketplace and start wandering around. There are many people buying food and other goods. You also see some people from the feast last night wandering around the market. You decide to:",
     buttons: [
       {
         btnTxt: "go talk to one of the traders.",
@@ -2425,7 +2425,7 @@ export default new Map([
   }],
 
   ["path322", {
-    storyText: "As you are trekking through the swamp, a hag jumps out and attacks you. You react quickly, and are able to hold her at sword's point. You decide to:",
+    storyText: "As you are trekking through the swamp, a hag jumps out and attacks you. You react quickly and are able to hold her at sword's point. You decide to:",
     buttons: [
       {
         btnTxt: "kill the hag; she attacked you!",
@@ -2467,7 +2467,7 @@ export default new Map([
   }],
 
   ["path325", {
-    storyText: "The only place to go is towards the river, so you head over there. There is a small boat there, but when you attempt to get on they ask for payment. You run back to get the gold piece, but it is gone. So, you decide to sneak onto the boat. As the boat is rowing along a three headed dog comes into view. It starts snarling at you, because you did not pay for passage. He grabs you as the boat goes by and flings you back into the plain. You are forever stuck trying to get the gold piece to make it out of that desolate place. THE END",
+    storyText: "The only place to go is towards the river, so you head over there. There is a small boat there, but when you attempt to get on, they ask for payment. You run back to get the gold piece, but it is gone. So, you decide to sneak onto the boat. As the boat is rowing along a three headed dog comes into view. It starts snarling at you, because you did not pay for passage. He grabs you as the boat goes by and flings you back into the plain. You are forever stuck trying to get the gold piece to make it out of that desolate place. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -2579,7 +2579,7 @@ export default new Map([
   }],
 
   ["path333", {
-    storyText: "When you knock on the door to the church, a priest comes to the door and lets you in. You are able to spend the night there and in the morning they are serving food out front. You decide to:",
+    storyText: "When you knock on the door to the church, a priest comes to the door and lets you in. You are able to spend the night there and, in the morning, they are serving food out front. You decide to:",
     buttons: [
       {
         btnTxt: "go out and eat some food.",
@@ -2593,7 +2593,7 @@ export default new Map([
   }],
 
   ["path334", {
-    storyText: "While you are eating a priest comes up and starts talking to you about Christianity, and invites you to stay a night at the church. You decide to:",
+    storyText: "While you are eating a priest comes up and starts talking to you about Christianity and invites you to stay a night at the church. You decide to:",
     buttons: [
       {
         btnTxt: "stay at the church.",
@@ -2611,7 +2611,7 @@ export default new Map([
   }],
 
   ["path335", {
-    storyText: "You end up staying at the church for a while and are converted. You get baptized and become a righteous monk. You repent of all of your sins. When you eventually die as a martyr, you go straight to heaven where you finally understand the working of the trinity, and live out the rest of eternity with God and the Virgin Mary. THE END",
+    storyText: "You end up staying at the church for a while and are converted. You get baptized and become a righteous monk. You repent of all of your sins. When you eventually die as a martyr, you go straight to heaven where you finally understand the working of the trinity and live out the rest of eternity with God and the Virgin Mary. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -2649,7 +2649,7 @@ export default new Map([
   }],
 
   ["path338", {
-    storyText: "As you approach the castle a scouting party comes up to you, and escorts you to the castle gates. When you enter the gates a large muscular man stands waiting to talk to you. He asks what you are doing there, and you explain that you hail from King Arthur’s court, and you are just travelling through. As you say this, a large grin breaks across his face and he walks up to you, clapping you on the back like you’re an old friend. He introduces himself as Lord Bertilak of Hautdesert and he leads the way into the castle proper to introduce you to some members of his court. He introduces you to his wife, an old woman at court named Morgan Le Faye, and several of his best warriors. He then shows you to a room where you can stay as a guest. You decide to:",
+    storyText: "As you approach the castle a scouting party comes up to you, and escorts you to the castle gates. When you enter the gates, a large muscular man stands waiting to talk to you. He asks what you are doing there, and you explain that you hail from King Arthur’s court, and you are just travelling through. As you say this, a large grin breaks across his face and he walks up to you, clapping you on the back like you’re an old friend. He introduces himself as Lord Bertilak of Hautdesert and he leads the way into the castle proper to introduce you to some members of his court. He introduces you to his wife, an old woman at court named Morgan Le Faye, and several of his best warriors. He then shows you to a room where you can stay as a guest. You decide to:",
     buttons: [
       {
         btnTxt: "stay in your room.",
@@ -2671,7 +2671,7 @@ export default new Map([
   }],
 
   ["path339", {
-    storyText: "Once you have gotten all settled down and looked through your new room, one of Bertilak’s warriors comes to take you to dinner in the main dining hall. At one point Bertilak’s wife comes around and offers everyone a drink. You converse with all the men and enjoy a wonderful meal, before going to bed for the night. In the morning a warrior comes to tell you that Lord Bertilak is going hunting. You decide to: ",
+    storyText: "Once you have gotten all settled down and looked through your new room, one of Bertilak’s warriors comes to take you to dinner in the main dining hall. At one point, Bertilak’s wife comes around and offers everyone a drink. You converse with all the men and enjoy a wonderful meal, before going to bed for the night. In the morning a warrior comes to tell you that Lord Bertilak is going hunting. You decide to: ",
     buttons: [
       {
         btnTxt: "join Lord Bertilak and go hunting",
@@ -2735,7 +2735,7 @@ export default new Map([
   }],
 
   ["path343", {
-    storyText: "As you are lying in bed, Lord Bertilak’s wife comes into your room and starts talking to you. You politely talk to her. As she is getting ready to leave she asks you to kiss her. You decide to:",
+    storyText: "As you are lying in bed, Lord Bertilak’s wife comes into your room and starts talking to you. You politely talk to her. As she is getting ready to leave, she asks you to kiss her. You decide to:",
     buttons: [
       {
         btnTxt: "kiss her.",
@@ -2805,7 +2805,7 @@ export default new Map([
   }],
 
   ["path348", {
-    storyText: "Lord Bertilak tells you that some nasty water monster lives in that lake, and he is glad that you did not go over there. While you were away, he managed to catch a herd of deers with his best warriors. He made an amazing catch, and you admire his hunting skills as the party makes their way back to the castle. The hunt has now worn you out and you head back to your rooms to lay down.",
+    storyText: "Lord Bertilak tells you that some nasty water monster lives in that lake, and he is glad that you did not go over there. While you were away, he managed to catch a herd of deer with his best warriors. He made an amazing catch, and you admire his hunting skills as the party makes their way back to the castle. The hunt has now worn you out and you head back to your rooms to lay down.",
     buttons: [
       {
         btnTxt: "Next",
@@ -2881,7 +2881,7 @@ export default new Map([
   }],
 
   ["path354", {
-    storyText: "You and the lady make small talk for a while, and as you get up to leave she asks if you will kiss her. You decide to:",
+    storyText: "You and the lady make small talk for a while, and as you get up to leave, she asks if you will kiss her. You decide to:",
     buttons: [
       {
         btnTxt: "kiss her.",
@@ -2913,7 +2913,7 @@ export default new Map([
   }],
 
   ["path356", {
-    storyText: "56- You say, ‘Yes, I would love to. Who are you again?’     ‘We are Guinevere and Lancelot, you know us Gawain. Also, you are talking in a very strange accent. What are you up to?’      You realize that you are in a bad spot, they are noticing that you are not from the same time period as them. You end the conversation and decide to:",
+    storyText: "56- You say, “Yes, I would love to. Who are you again?” Confused, they respond: ”We are Guinevere and Lancelot; you know us Gawain. What’s more, you are talking in a very strange accent. What are you up to?” You realize that you are in a bad spot, they are noticing that you are not from the same time period as them. You end the conversation and decide to:",
     buttons: [
       {
         btnTxt: "go back to the time machine.",
@@ -2955,7 +2955,7 @@ export default new Map([
   }],
 
   ["path3591", {
-    storyText: "All of the other spirits around you are flowing towards the river, so you decide to follow. As you get close you see a boat, with a rower named Charon announcing that he is collecting gold pieces. You give him your gold piece and get onto the boat. Once the boat is full Charon starts moving the boat down the river. You pass Cerberus as you float down the river styx. Then Minos, Rhadamanthos, and Aecaus come into view. Since you have done nothing extremely bad or extremely good you bathe in the river lethe which makes you forget your past life, and then you are sent to the Plains of Asphodel to wander aimlessly for eternity. THE END",
+    storyText: "All of the other spirits around you are flowing towards the river, so you decide to follow. As you get close you see a boat, with a rower named Charon announcing that he is collecting gold pieces. You give him your gold piece and get onto the boat. Once the boat is full Charon starts moving the boat down the river. You pass Cerberus as you float down the river Styx. Then Minos, Rhadamanthos, and Aecaus come into view. Since you have done nothing extremely bad or extremely good you bathe in the river Lethe which makes you forget your past life, and then you are sent to the Plains of Asphodel to wander aimlessly for eternity. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -3003,7 +3003,7 @@ export default new Map([
   }],
 
   ["path362", {
-    storyText: "After pocketing the gold piece you follow all of the other spirits into the darkness, away from the river. Finally, you approach a gate which you enter to find people who cannot decide on anything, and another river beyond them. When you go towards the river you see a boat with a ferryman named Charon in it. He takes your gold piece as payment for the ride. When he drops you off you find yourself in a city of virtuous pagans. You continue down into Hell, and approach a place where many spirits are being tortured. As you get close, the beast Minos blocks your way. You decide to:",
+    storyText: "After pocketing the gold piece you follow all of the other spirits into the darkness, away from the river. Finally, you approach a gate which you enter to find people who cannot decide on anything, and another river beyond them. When you go towards the river you see a boat with a ferryman named Charon in it. He takes your gold piece as payment for the ride. When he drops you off you find yourself in a city of virtuous pagans. You continue down into Hell and approach a place where many spirits are being tortured. As you get close, the beast Minos blocks your way. You decide to:",
     buttons: [
       {
         btnTxt: "talk to Minos.",
@@ -3052,7 +3052,7 @@ export default new Map([
     storyText: "You start climbing the legs and as you do it becomes increasingly dark and difficult to breathe. You take a moment to step back and you see Satan, with three heads, glaring down at you in all his pitiful glory. You decide to:",
     buttons: [
       {
-        btnTxt: "climb Satan back to puratory.",
+        btnTxt: "climb Satan back to purgatory.",
         path: 'path366',
       },
       {
@@ -3121,7 +3121,7 @@ export default new Map([
   }],
 
   ["path371", {
-    storyText: "You are unable to go back up a circle; Minos blocks any attempt and as you continue to try he beats you and then sends you on your way.",
+    storyText: "You are unable to go back up a circle; Minos blocks any attempt and as you continue to try, he beats you and then sends you on your way.",
     buttons: [
       {
         btnTxt: "Next",
@@ -3131,7 +3131,7 @@ export default new Map([
   }],
 
   ["path372", {
-    storyText: "You descend past Cerberus, plutus, styx, the city of dis, phlegethon, and Geryon. You finally give up and live the rest of eternity in hell. THE END",
+    storyText: "You descend past Cerberus, Plutus, Styx, the City of Dis, Phlegethon, and Geryon. You finally give up and live the rest of eternity in hell. THE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -3141,7 +3141,7 @@ export default new Map([
   }],
 
   ["path373", {
-    storyText: "73- As your reputation slowly fades and people don’t believe in your abilities anymore, you lose your position as knight. When you continue refusing to fight and maintain your reputation you do not receive a wife. You lose your position as knight. Finally you die disgraced. But after you have died, you drift awake and find yourself in a barren plain with a river running through it. As you sit up you see a gold piece sitting next to you. You decide to:",
+    storyText: "73- As your reputation slowly fades and people don’t believe in your abilities anymore, you lose your position as knight. When you continue refusing to fight and maintain your reputation you do not receive a wife. You lose your position as knight. Finally, you die disgraced. But after you have died, you drift awake and find yourself in a barren plain with a river running through it. As you sit up you see a gold piece sitting next to you. You decide to:",
     buttons: [
       {
         btnTxt: "pick up the gold piece.",
@@ -3223,7 +3223,7 @@ export default new Map([
         path: 'path426',
       },
       {
-        btnTxt: "Talk to a more plain resident",
+        btnTxt: "Talk to the plainer residents",
         path: 'path429',
       },
       {
@@ -3344,13 +3344,13 @@ export default new Map([
         path: 'path422',
       },
       {
-        btnTxt: "Visit the military sector  without papers",
+        btnTxt: "Visit the military sector without papers",
         path: 'path412',
       },
     ]
   }],
   ["path414", {
-    storyText: "You go to the center of the city and find where governmental meetings take place. Asking around, you learn that candidates for the Chief Executive are elected by the population, and finally selected by the syphogrants. In addition, the Chief Executive maintains the position for life. Hearing that the Chief Executive is still alive and well, you decide to: ",
+    storyText: "You go to the center of the city and find where governmental meetings take place. Asking around, you learn that candidates for the Chief Executive are elected by the population, and finally selected by the Syphogrants. In addition, the Chief Executive maintains the position for life. Hearing that the Chief Executive is still alive and well, you decide to: ",
     buttons: [
       {
         btnTxt: "Become the head-honcho - no matter the cost",
@@ -3397,7 +3397,7 @@ export default new Map([
     ]
   }],
   ["path417", {
-    storyText: "Wandering around, you find a largish building where everyone seems to be gathering. You catch a scent of something delicious, and walk inside. Reaching for some money, you notice some kids run past you, sit down, and start eating. You put your money away, sheepishly realizing that everything is shared in common. You notice that the men sit on one side with their backs to the wall, while the women sit opposite. Not sure why this is the case, you nonetheless follow suit and sit in the appropriate location. Chowing down, you notice that across the table and a few seats down, an incredibly attractive person is watching you. You:",
+    storyText: "Wandering around, you find a largish building where everyone seems to be gathering. You catch a scent of something delicious and walk inside. Reaching for some money, you notice some kids run past you, sit down, and start eating. You put your money away, sheepishly realizing that everything is shared in common. You notice that the men sit on one side with their backs to the wall, while the women sit opposite. Not sure why this is the case, you nonetheless follow suit and sit in the appropriate location. Chowing down, you notice that across the table and a few seats down, an incredibly attractive person is watching you. You:",
     buttons: [
       {
         btnTxt: "Ignore it and keep eating",
@@ -3525,7 +3525,7 @@ export default new Map([
     ]
   }],
   ["path426", {
-    storyText: "As you walk up to the gold-covered man, you notice that something seems off. Perhaps he is just having a bad day, but he doesn’t seem all that happy. You get closer and realize that all that gold on his arms and legs are… chains. Golden chains. Further, this important and wealthy man seems to be doing menial labor. Slowly, you put two and two together, realizing that this man is a criminal. And yet, for some reason, they give their criminals GOLD. You decide to: ",
+    storyText: "As you walk up to the gold-covered man, you notice that something seems off. Perhaps he is just having a bad day, but he doesn’t seem all that happy. You get closer and realize that all that gold on his arms and legs are… chains. Golden chains. Further, this important and wealthy man seems to be doing menial labor. Slowly, you put two and two together, realizing that this man was a criminal and is now a slave. And yet, for some reason, they give their criminals GOLD. You decide to: ",
     buttons: [
       {
         btnTxt: "Become a criminal. It can’t be that bad with all this gold.",
@@ -3559,7 +3559,7 @@ export default new Map([
     ]
   }],
   ["path428", {
-    storyText: "Falling into criminalistic behaviour, you are left undiscovered for a time. Falling into a false sense of security, you begin to think the rules no longer apply to you and you flagrantly violate every Utopian law. Eventually, you are caught and brought to justice.",
+    storyText: "Falling into criminalistic behavior, you are left undiscovered for a time. Falling into a false sense of security, you begin to think the rules no longer apply to you and you flagrantly violate every Utopian law. Eventually, you are caught and brought to justice.",
     buttons: [
       {
         btnTxt: "Next",
@@ -3636,12 +3636,6 @@ export default new Map([
       },
     ]
   }],
-
-  /*
-  ------------------------------
-  Todo add paths
-  ------------------------------
-  */
   ["path434", {
     storyText: "Having had your fill of adventure, you find your way back to the machine and are relieved to see that it is still there. Stepping inside and preparing yourself, you:",
     buttons: [
@@ -3659,12 +3653,6 @@ export default new Map([
       },
     ]
   }],
-
-  /*
-  ------------------------------
-  End Todo 
-  ------------------------------
-  */
   ["path435", {
     storyText: "The time machine returns you to your original timeline, sprays confetti everywhere, and welcomes you home. You step outside and realize that you are quite satisfied with your present life circumstances. Leaving the machine, you remember that you have a synthesis for your honors class due tomorrow and sigh as you wonder what you will write.\n\nTHE END",
     buttons: [
@@ -3675,7 +3663,7 @@ export default new Map([
     ]
   }],
   ["path436", {
-    storyText: "You place the crown atop your head and declare yourself ruler over the princedom. You then realize that you are not too experienced with ruling a princedom, and people are getting quite upset. You need to act quickly to quiet rebellion and assert yourself as ruler. Luckily, you find a written text by a man named Machiavelli, which seems to offer all the advice you could possibly need. Scanning the text, you feel prepared and ready to face the world. In order to keep you province, you:",
+    storyText: "You place the crown atop your head and declare yourself ruler over the princedom. You then realize that you are not too experienced with ruling a princedom, and people are getting quite upset. You need to act quickly to quiet rebellion and assert yourself as ruler. Luckily, you find a written text by a man named Machiavelli, which seems to offer all the advice you could possibly need. Scanning the text, you feel prepared and ready to face the world. In order to keep your province, you:",
     buttons: [
       {
         btnTxt: "Kill the previous ruler",
@@ -3731,7 +3719,7 @@ export default new Map([
     ]
   }],
   ["path440", {
-    storyText: "You decide to show that good moral attributes such as kindness and compassion are the ways one ought to rule. In the face of growing dissenters and increased disquiet amongst the land, you decide to show an even greater display of upright moral behaviour. You pardon criminals, visit the residents, and try to be a “good person.” One night, while in bed, you awake to the smell of smoke. In a start, you realize a mob has set your house on fire and is waiting for you outside. You:",
+    storyText: "You decide to show that good moral attributes such as kindness and compassion are the ways one ought to rule. In the face of growing dissenters and increased disquiet amongst the land, you decide to show an even greater display of upright moral behavior. You pardon criminals, visit the residents, and try to be a “good person.” One night, while in bed, you awake to the smell of smoke. In a start, you realize a mob has set your house on fire and is waiting for you outside. You:",
     buttons: [
       {
         btnTxt: "Stay inside and hope the fire extinguishes itself",
@@ -3753,7 +3741,7 @@ export default new Map([
     ]
   }],
   ["path442", {
-    storyText: "Escaping the flames, you bravely step outside and face the mob. You ask what they want and they clamor: “YOUR HEAD!” You: ",
+    storyText: "Escaping the flames, you bravely step outside and face the mob. You ask what they want, and they clamor: “YOUR HEAD!” You: ",
     buttons: [
       {
         btnTxt: "Turn around and head back inside your flaming house",
@@ -3796,7 +3784,7 @@ export default new Map([
     ]
   }],
   ["path445", {
-    storyText: "The next day, you nervously return to find your house burned to the ground. However, your military squashed the rebellion and it seems that you are somehow back in power. You rebuild your house and things start to become relatively normal. It would appear that people have come to accept you as their ruler and you can now focus on other things than just staying alive. You decide to:",
+    storyText: "The next day, you nervously return to find your house burned to the ground. However, your military squashed the rebellion and it seems that you are somehow back in power. You rebuild your house and things start to become relatively normal. It would appear that people have come to accept you as their ruler, and you can now focus on other things than just staying alive. You decide to:",
     buttons: [
       {
         btnTxt: "Establish foreign relations",
@@ -3882,7 +3870,7 @@ export default new Map([
     ]
   }],
   ["path451", {
-    storyText: "You pass the crown off to someone else and they have just enough time to catch your name before you disappear around a corner. You resolve to live as a citizen and watch as that dude you gave the crown to gains power and establishes his domain. One day, while walking from the market, you gasp as you feel a sharp sting in your stomache - you have been stabbed. As you fall in a puddle of blood, your assassin stands over you and explains that a previous owner of the crown must not be allowed to live and then departs as your vision blurs into darkness.\n\nTHE END",
+    storyText: "You pass the crown off to someone else and they have just enough time to catch your name before you disappear around a corner. You resolve to live as a citizen and watch as that dude you gave the crown to gains power and establishes his domain. One day, while walking from the market, you gasp as you feel a sharp sting in your stomach - you have been stabbed. As you fall in a puddle of blood, your assassin stands over you and explains that a previous owner of the crown must not be allowed to live and then departs as your vision blurs into darkness.\n\nTHE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -3908,7 +3896,7 @@ export default new Map([
     ]
   }],
   ["path453", {
-    storyText: "Now an avid scholar of Machiavelli,  you realize that you must become like a lion and a fox - demonstrating both strength and guile. You unashamedly ignore Bologna’s pleas for help and instead join forces with the Florentines. Bologna is destroyed, but you gained a new, more powerful ally. Next you decide to:",
+    storyText: "Now an avid scholar of Machiavelli, you realize that you must become like a lion and a fox - demonstrating both strength and guile. You unashamedly ignore Bologna’s pleas for help and instead join forces with the Florentines. Bologna is destroyed, but you gained a new, more powerful ally. Next you decide to:",
     buttons: [
       {
         btnTxt: "Ditch the crown and go someplace else",
@@ -3925,7 +3913,7 @@ export default new Map([
     ]
   }],
   ["path454", {
-    storyText: "Just when Bologna thought all was lost, your army comes sweeping in and drives out the Florentines. You have swiftly shown who your allies are and Bologna has a strengthened obligation towards you. Your people praise your fame as a great man of intellect and military prowess. You return home with Bolognan gifts and Florentian treasures. You decide to:",
+    storyText: "Just when Bologna thought all was lost, your army comes sweeping in and drives out the Florentines. You have swiftly shown who your allies are, and Bologna has a strengthened obligation towards you. Your people praise your fame as a great man of intellect and military prowess. You return home with Bolognan gifts and Florentian treasures. You decide to:",
     buttons: [
       {
         btnTxt: "Build a fortress to place your treasures",
@@ -3942,7 +3930,7 @@ export default new Map([
     ]
   }],
   ["path455", {
-    storyText: "You bestow the throne upon a faithful heir and leave the city, never to return. You think back on all that you accomplished with a sense of pride - along with a nagging sense of doubt that perhaps you were more cruel than you should have been. In any case, you survived, no, thrived as a ruler. As you travel you see a peculiar sign pointing to two destinations. To the northwest it reads: To Time Machine. To the northeast, it reads: To Strange Travelers. Blindly trusting the sign’s directions you:",
+    storyText: "You bestow the throne upon a faithful heir and leave the city, never to return. You think back on all that you accomplished with a sense of pride - along with a nagging sense of doubt that perhaps you were more cruel than you should have been. In any case, you survived, no, thrived as a ruler. As you travel you see a peculiar sign pointing to two destinations. To the northwest it reads: To Time Machine. To the northeast, it reads: To Strange Travelers. Blindly trusting the sign’s directions, you:",
     buttons: [
       {
         btnTxt: "Go to the time machine",
@@ -4053,7 +4041,7 @@ export default new Map([
         path: 'path426',
       },
       {
-        btnTxt: "Talk to a more plain resident",
+        btnTxt: "Talk to the plainer residents",
         path: 'path429',
       },
       {
@@ -4097,7 +4085,7 @@ export default new Map([
     ]
   }],
   ["path466", {
-    storyText: "You spend your money without any thought and the people love you for it. Just the other day, there was a crowd cheering as you tossed golden coins into it. But wait. Suddenly you are almost dry - there’s nothing left. You are unable to pay expenses and debts, and are forced to raise taxes. Your people begin to murmur and claim you are unfit to rule. As you witness everything unfold before you, you decide to:",
+    storyText: "You spend your money without any thought and the people love you for it. Just the other day, there was a crowd cheering as you tossed golden coins into it. But wait. Suddenly you are almost dry - there’s nothing left. You are unable to pay expenses and debts and are forced to raise taxes. Your people begin to murmur and claim you are unfit to rule. As you witness everything unfold before you, you decide to:",
     buttons: [
       {
         btnTxt: "Host an extravagant party to cheer people up",
@@ -4114,7 +4102,7 @@ export default new Map([
     ]
   }],
   ["path467", {
-    storyText: "You hire the best planners your limited funds can buy and do your best to be the hostest-with-the-mostest. However, despite your planners best efforts, things do not go well. The attendees view their surroundings with disgust and hold you in contempt. You are no longer fit to rule and they have decided that you are replaceable. Overnight, you are overthrown and live the rest of your life trying to hide your face and live in anonymity.\n\nTHE END",
+    storyText: "You hire the best planners your limited funds can buy and do your best to be the hostest-with-the-mostest. However, despite your planners’ best efforts, things do not go well. The attendees view their surroundings with disgust and hold you in contempt. You are no longer fit to rule, and they have decided that you are replaceable. Overnight, you are overthrown and live the rest of your life trying to hide your face and live in anonymity.\n\nTHE END",
     buttons: [
       {
         btnTxt: "Start Over",
@@ -4123,7 +4111,7 @@ export default new Map([
     ]
   }],
   ["path468", {
-    storyText: "Despite trying to reclaim losses and accumulate funds, the people hate you even more. The city is falling apart and you seem to be doing nothing about it. They accuse you of wasting money on things that don’t matter, while closing the purse where it is needed. Realizing that you made too many mistakes to be forgiven, you quietly slip out of town and do your best not to be noticed. ",
+    storyText: "Despite trying to reclaim losses and accumulate funds, the people hate you even more. The city is falling apart, and you seem to be doing nothing about it. They accuse you of wasting money on things that don’t matter, while closing the purse where it is needed. Realizing that you made too many mistakes to be forgiven, you quietly slip out of town and do your best not to be noticed. ",
     buttons: [
       {
         btnTxt: "Next",
@@ -4132,7 +4120,7 @@ export default new Map([
     ]
   }],
   ["path469", {
-    storyText: "You come up with a plan to free yourself from these responsibilities. You wait until night, and creep into the throne room. You set the crown on the thrown and leave a note saying “sorry I was a bad prince :(“ Feeling a weight lift from your shoulder, you skip off into the streets, do a heel click, and disappear from the city, never to return. Days later, while traveling, you see a peculiar sign pointing to two destinations. To the northwest it reads: To Time Machine. To the northeast, it reads: To Strange Travelers. Blindly trusting the sign’s directions you:",
+    storyText: "You come up with a plan to free yourself from these responsibilities. You wait until night, and creep into the throne room. You set the crown on the thrown and leave a note saying “sorry I was a bad prince :(“ Feeling a weight lift from your shoulder, you skip off into the streets, do a heel click, and disappear from the city, never to return. Days later, while traveling, you see a peculiar sign pointing to two destinations. To the northwest it reads: To Time Machine. To the northeast, it reads: To Strange Travelers. Blindly trusting the sign’s directions, you:",
     buttons: [
       {
         btnTxt: "Go to the time machine",

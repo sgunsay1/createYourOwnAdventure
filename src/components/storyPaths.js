@@ -1,7 +1,7 @@
 export default new Map([
   //This is the start of one path and its buttons
   ["startPath", {
-    storyText: "One morning, you're walking down the street and come upon a time machine. You decide to:",
+    storyText: "One day as you are sitting alone in your study surrounded by books on all kinds of subjects, devoting yourself to literary studies and preparing for finals, your usual habit (at least, that’s what you tell your professors), your mind begins to dwell at length on the weighty opinions of various authors whom you had studied for a long time.You’re startled when a bird flies into your window, and you realize you’ve spent too much time in quarantine, reading old books about history, religion, women, and culture. You decide to go on a walk to clear your head. As you’re walking down the street, you come upon a big, metallic machine. You decide to:",
     buttons: [
       { //This is the start of a button
         btnTxt: "Ignore it! Nothing good ever comes from time travel", //This is the text that will show up INSIDE of the button
@@ -38,7 +38,7 @@ export default new Map([
 
 
   ["path002", {
-    storyText: "You discover a knob on the time machine that changes the number on the machine's LED display; you figure the number represents how far back the time machine will take you (in years). You decide to:",
+    storyText: "You discover that this thing is a time machine. Quelle chance! Not quite sure how it works, you figure it will at least be a distraction from preparing for finals. You see a knob on the time machine with a few different settings; you figure the number represents how far back the time machine will take you (in years). You decide to:",
     buttons: [
       {
         btnTxt: "walk away; the whole thing looks a little sketchy...",
@@ -74,7 +74,7 @@ export default new Map([
 
 
   ["path101", {
-    storyText: "After some pretty crazy physics-defying stuff, you wind up in the year 370. More's changed than your time period, though. You're now a woman, surprise if you weren't before! You decide to:",
+    storyText: "After some pretty crazy physics-defying stuff, you wind up in the year 370. More’s changed than just your time period, though. You’re now a woman, surprise if you weren’t before! You’ll soon find out that the world you landed in is much more hostile to women than the one you left. While here, your choices lead to drastically differing outcomes. You could end up a peasant’s wife, a Christian scholar, someone’s mistress, a prostitute, or you could just get yourself killed. You’re getting overwhelmed just thinking about it, but don’t worry, that’s normal. After all, women in this time period are overly emotional, don’t think rationally, and are easily discouraged! You decide to:",
     buttons: [
       {
         btnTxt: "lie down and cry! This is bizarre!",
@@ -1001,7 +1001,7 @@ export default new Map([
   ------------------------------------------------
   */
   ["path201", {
-    storyText: "You are now in the year 1070 AD. You look around and find yourself in a grove of trees in the mountains. You are now a male knight in shining armor, and you see an army marching by farther down in a pass between the mountains. From your vantage point you also see the sea in the distance. You decide to:",
+    storyText: "You are now in the year 1070 AD. As you wander through this time period you will be able to find elements of Song of Roland, Thousand and One Nights, and Germanic culture. You look around and find yourself in a grove of trees in the mountains. You are now a male knight in shining armor, and you see an army marching by farther down in a pass between the mountains. From your vantage point you also see the sea in the distance. You decide to:",
     buttons: [
       {
         btnTxt: "cover up the time machine and then set off towards the army",
@@ -1685,7 +1685,7 @@ export default new Map([
   }],
 
   ["path250", {
-    storyText: "After a few days of looking around and getting yourself more established in the country, you decide to:",
+    storyText: "Be careful, fortune is a fickle mistress and your next choices can turn you from rags to riches and back again on the flip of a coin. After a few days of looking around and getting yourself more established in the country, you decide to:",
     buttons: [
       {
         btnTxt: "become a merchant.",
@@ -2082,7 +2082,7 @@ export default new Map([
   ------------------------------------------------
   */
   ["path301", {
-    storyText: "The time machine rattles and shakes as you make your way through time and space to the year 1320 AD. Everything feels weird, and you close your eyes to try and control your newfound motion sickness. When you open your eyes, you find yourself in the corner of a dark courtyard. There is a small castle in front of you and large walls behind you. You decide to:",
+    storyText: "The time machine rattles and shakes as you make your way through time and space to the year 1320 AD. In this time period you will be able to see elements of Gawain and the Green Knight, as well as Dante’s Afterlife. Everything feels weird, and you close your eyes to try and control your newfound motion sickness. When you open your eyes, you find yourself in the corner of a dark courtyard. There is a small castle in front of you and large walls behind you. You decide to:",
     buttons: [
       {
         btnTxt: "climb the wall.",
@@ -3169,7 +3169,7 @@ export default new Map([
 
 
   ["path401", {
-    storyText: "The machine shakes more than the Magna earthquake in Utah and for a minute you start to get nervous. Then everything settles down. Nervously, you open the door and step outside, finding yourself in the year 1516. Looking around, you see a small band of travelers headed east. You decide to:",
+    storyText: "The machine shakes more than the Magna earthquake in Utah and for a minute you start to get nervous. Then everything settles down.  It is now the year 1516 and the machine informs you that you will have the opportunity to explore situations and themes from Machiavelli’s “The Prince” and More’s “Utopia.” But be warned: choosing the wrong path could lead to an untimely demise. Nervously, you open the door and step outside, finding yourself in the year 1516. Looking around, you see a small band of travelers headed east. You decide to:",
     buttons: [
       {
         btnTxt: "Catch up to the travelers and ask for some food",

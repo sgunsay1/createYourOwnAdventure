@@ -33,7 +33,10 @@ class CreateYourOwnStory extends React.Component {
   }
 
   clickHandler(path) {
-    this.setState({ currentPath: storyPaths.get(path) })
+    if (storyPaths.has(path))
+      this.setState({ currentPath: storyPaths.get(path) })
+    else
+      this.setState({ currentPath: storyPaths.get("notImplemented") })
   }
 
   render() {

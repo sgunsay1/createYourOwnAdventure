@@ -17,7 +17,7 @@ export default new Map([
 
 
   ["notImplemented", {
-    storyText: "Hmmmmm... Sorry. It seems like we haven't implemented this path yet. Please let Seth know so that he can fix it!",
+    storyText: "Hmmmmm... Sorry. It seems something went wrong with this path. Please note which button you clicked and let Seth know so that he can fix it!",
     buttons: [
       {
         btnTxt: "Start Over",
